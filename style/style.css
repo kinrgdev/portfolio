@@ -11,7 +11,8 @@
   --color-canvas: #ff9933;
   --color-css: #264de4;
   --color-js: #f0db4f;
-  --color-php: #3498db;
+  --color-php: #6280b6;
+  --color-tailwind: #06b6d4;
   --special-font: "Tektur", sans-serif;
   --text-shadow: 1px 1px 0px var(--color-secondary),
     -1px -1px 0px var(--color-secondary), 1px -1px 0px var(--color-secondary),
@@ -646,6 +647,7 @@ div span.js {
 #skills .galeria img {
   cursor: pointer;
   width: clamp(3%, 7vw, 17%);
+  object-fit: contain;
   margin: 3% auto;
   padding: 0;
   display: block;
@@ -700,6 +702,9 @@ div span.js {
 
 .skill-modal-content.php {
   border: 5px solid var(--color-php);
+}
+.skill-modal-content.tailwind {
+  border: 5px solid var(--color-tailwind);
 }
 
 .skill-modal-content p {
