@@ -703,6 +703,7 @@ div span.js {
 .skill-modal-content.php {
   border: 5px solid var(--color-php);
 }
+
 .skill-modal-content.tailwind {
   border: 5px solid var(--color-tailwind);
 }
@@ -1023,6 +1024,11 @@ footer article:nth-of-type(2) a:hover {
   #bannerCookies {
     height: 80vh;
   }
+
+  .btn-wrapp button {
+    width: 100%;
+    padding: 1%;
+  }
 }
 
 
@@ -1083,8 +1089,22 @@ footer article:nth-of-type(2) a:hover {
     left: 20%;
   }
 
+  #bannerCookies {
+    width: 70%;
+  }
+
+  .btn-wrapp button {
+    width: 100%;
+    padding: 1%;
+  }
+
   #pagesAboutMe {
     width: 95%;
+  }
+
+  /* Aviso legal / Privacidad */
+  #info {
+    width: 90%;
   }
 }
 
@@ -1217,6 +1237,7 @@ footer article:nth-of-type(2) a:hover {
   /* Cookies */
   #bannerCookies {
     height: 60vh;
+    width: 90%;
   }
 
   .contenidoBanner {
@@ -1225,6 +1246,23 @@ footer article:nth-of-type(2) a:hover {
 
   .btn-wrapp button {
     width: 35% !important;
+  }
+}
+
+/**************** 500 ****************/
+@media (max-width: 500px) {
+   #bannerCookies {
+    height: 60vh;
+    width: 90%;
+  }
+
+  .btn-wrapp button {
+    width: 100% !important;
+    padding: 1%;
+  }
+
+  .button-extraP2 {
+    width: 30%;
   }
 }
 
@@ -1356,13 +1394,24 @@ footer article:nth-of-type(2) a:hover {
   /* Cookies */
   #bannerCookies {
     height: 60vh;
+    width: 70%;
   }
 
   .contenidoBanner {
-    width: 80%;
+    width: 90% !important;
   }
 
   .btn-wrapp button {
-    width: 35% !important;
+    width: 40% !important;
+    padding: 1%;
+  }
+
+  /* Aviso legal / Privacidad */
+  #info {
+    width: 90%;
+  }
+
+  .button-extraP2 {
+    width: 30%;
   }
 }
